@@ -6,6 +6,8 @@ Using this problem solving technique helped me greatly with this project.
 
 ## Game Idea - Writing it down
 I had in mind to create a basic coordinate game where you move on a 2D map and you have to kill all the monsters on the map to complete the game. To help materialize this I used the good old fashioned pen and paper method:
+![IMG_0110.png]
+(https://github.com/M35S/MonsterHuntCoordinateGame/blob/main/MonsterCoordinateGameV1/IMG_0110.png)
 // Insert pic here
 
 As you can see from the above picture it is a simple 2D map (represented by characters #, P, M) where the player, as well as the monster, can move in four directions; Up, Down, Left and Right. To add a bit more interactivity giving the monster the ability to move in random directions makes it different through each playthrough.
@@ -14,6 +16,8 @@ The win condition: Kill all monsters.
 The lose condition: Too many monsters spawned.
 
 Although it is a simple game, there are quite a few things to consider. Here is what I put down on paper:
+![IMG_0112.png]
+(https://github.com/M35S/MonsterHuntCoordinateGame/blob/main/MonsterCoordinateGameV1/IMG_0112.png)
 // Insert pic here
 
 Writing down what the game's possible methods, data and objects are can help give your game idea a foundation to build upon. Another very important technqiue is to use a flow diagram technique to define the game's flow. In this case, as soon as you play the game, it loops between displaying all game characters and performning the character movements.
