@@ -59,19 +59,21 @@ As you can see from the code, I used switch cases for the movement methods of bo
 
 switch(movePlayer)  
 // For the player, insert letters w, s, a, d.
+
 {
-case 'w' //UP
-case 's' //DOWN
-case 'a' //LEFT
-case 'd' //RIGHT
+case 'w' //UP, 
+case 's' //DOWN, 
+case 'a' //LEFT, 
+case 'd' //RIGHT 
 };
 
 switch(moveMonster)  
 // For the monster, a random number between 0-3 is chosen.
+
 {
-case '0' //UP
-case '1' //DOWN
-case '2' //LEFT
+case '0' //UP, 
+case '1' //DOWN, 
+case '2' //LEFT,
 case '3' //RIGHT
 }
   
